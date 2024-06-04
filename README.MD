@@ -46,7 +46,7 @@ Creates a subdirectory of the .csv files.
 #### Note - Requires Directory name as input in terminal
 
 ## Example Usage 
-### For example usage, go to [Tests](Tests/trial.txt)
+### For example usage, go to [Tests](Tests/test.md)
 
 ## Contributions
 Pull Requests are welcome. 
