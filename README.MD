@@ -23,7 +23,7 @@ Now we are ready to run the code!
 
 ### [main.py](main.py)
 Used for extracting the ECG related databases from the Physionet Repository. 
-Works my opening the urls of each dataset, extracting the first paragraph of the description or abstract (in case the description is not found) and looks for the term 'ECG' or 'Electrocardiogram'. 
+Works by opening the urls of each database, extracting the first paragraph of the description or abstract (in case the description is not found) and looks for the term 'ECG' or 'Electrocardiogram'. 
 
 Returns a csv file containing the name and description of the databases of interest.
 
@@ -32,7 +32,7 @@ Traverses through the csv created by [main](main.py) to access the records of ea
 Useful in appending the number of datapoints recorded in each database of interest.
 
 ### [download_db.py](download_db.py)
-Used to download the dataset required. 
+Used to download the database required. 
 #### Note - Requires dataset code as input in terminal
 
 ### [plot.py](plot.py)
