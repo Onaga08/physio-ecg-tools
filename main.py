@@ -14,7 +14,7 @@ def get_dataset_description(dataset_name):
     page = requests.get(physionet_url)
     soup = BeautifulSoup(page.content, 'html.parser')
     description_tag = soup.find('h3', string="Data Description")
-    description_tag1 = soup.find('h2', string="Data Description")
+    description_tag1 = soup.find('h2', string="Data Description" or "Abstract")
     description_tag2 = soup.find('h3', string="Abstract")
     if description_tag:
         description = description_tag.find_next('p').get_text(strip=True)
