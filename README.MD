@@ -3,7 +3,7 @@ ECG Database curation through Physionet Repository
 
 ## Project Description
 [Physionet](https://physionet.org) is a repository of freely-available medical research data, managed by the MIT Laboratory for Computational Physiology. 
-The aim of this repository is to allow access for ECG related research and applications in various institutions by easy access, retrieval, and conversion of all ECG databases available on Physionet.
+The aim of [phyio-ecg-tools](https://github.com/Onaga08/physio-ecg-tools) is to allow access for ECG related research and applications in various institutions by easy access, retrieval, and conversion of all ECG databases available on Physionet.
 Through the use of [WFDB](https://wfdb.readthedocs.io/en/latest/) package, we were able to access the Physionet Repository and extract all the databases containing any type of ECG data. 
 Different files in this repository are created for different functions, which are explained further.
 
