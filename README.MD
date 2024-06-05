@@ -11,7 +11,7 @@ Different files in this repository are created for different functions, which ar
 
 Put the following command in your terminal/cmd after traversing to the designated folder
 ```bash
-git clone 
+git clone https://github.com/Onaga08/physio-ecg-tools.git
 ```
 This repository uses several Python libraries and dependencies. Install all requirements through the command below.
 ```bash
