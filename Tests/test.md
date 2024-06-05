@@ -4,7 +4,7 @@
 
 ## download_db.py 
 ### argument given - aami-ec13
-### output - //Created a dir named "aami-ec13" containing all the files hosted on Physionet.org
+### output - //Created a dir named "aami-ec13" containing all the files hosted on this database on Phyionet.org
 
 ## plot.py
 ### argument given - aami-ec13
